@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="currentColor">
+    <h1>background color</h1>
+  </div>
+  <div class="colorGenerator">
+    <div class="container">
+      <div class="colorCode">
+        <input type="text" value="" class="rgba" readonly/>
+        <input type="text" value="" class="hxcd" readonly/>
+      </div>
+      <div class="inputWrapper">
+        <div class="inptItm">
+          <p>r</p>
+           <input type="range" class="red" value="0" min="0" max="255" />
+          <span></span>
+        </div>
+        <div class="inptItm">
+          <p>g</p>
+          <input type="range" class="green" value="100" min="0" max="255" />
+          <span></span>
+        </div>
+        <div class="inptItm">
+          <p>b</p>
+          <input type="range" class="blue" value="200" min="0" max="255" />
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
